@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA70E14318A2F48E000771CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14218A2F48E000771CD /* Foundation.framework */; };
+		AA70E14518A2F48E000771CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14418A2F48E000771CD /* CoreGraphics.framework */; };
+		AA70E14718A2F48E000771CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14618A2F48E000771CD /* UIKit.framework */; };
+		AA70E14918A2F48E000771CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14818A2F48E000771CD /* CoreData.framework */; };
+		AA70E14F18A2F48E000771CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA70E14D18A2F48E000771CD /* InfoPlist.strings */; };
+		AA70E15118A2F48E000771CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70E15018A2F48E000771CD /* main.m */; };
+		AA70E15518A2F48E000771CD /* PNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70E15418A2F48E000771CD /* PNAppDelegate.m */; };
+		AA70E15818A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA70E15618A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodeld */; };
+		AA70E15A18A2F48E000771CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA70E15918A2F48E000771CD /* Images.xcassets */; };
+		AA70E16118A2F48F000771CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E16018A2F48F000771CD /* XCTest.framework */; };
+		AA70E16218A2F48F000771CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14218A2F48E000771CD /* Foundation.framework */; };
+		AA70E16318A2F48F000771CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14618A2F48E000771CD /* UIKit.framework */; };
+		AA70E16418A2F48F000771CD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14818A2F48E000771CD /* CoreData.framework */; };
+		AA70E16C18A2F48F000771CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA70E16A18A2F48F000771CD /* InfoPlist.strings */; };
+		AA70E16E18A2F48F000771CD /* Playnation_App_V_0_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70E16D18A2F48F000771CD /* Playnation_App_V_0_4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA70E16518A2F48F000771CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA70E13718A2F48E000771CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA70E13E18A2F48E000771CD;
+			remoteInfo = "Playnation App V 0.4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA70E13F18A2F48E000771CD /* Playnation App V 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playnation App V 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA70E14218A2F48E000771CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA70E14418A2F48E000771CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA70E14618A2F48E000771CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA70E14818A2F48E000771CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA70E14C18A2F48E000771CD /* Playnation App V 0.4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Playnation App V 0.4-Info.plist"; sourceTree = "<group>"; };
+		AA70E14E18A2F48E000771CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA70E15018A2F48E000771CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA70E15218A2F48E000771CD /* Playnation App V 0.4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playnation App V 0.4-Prefix.pch"; sourceTree = "<group>"; };
+		AA70E15318A2F48E000771CD /* PNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNAppDelegate.h; sourceTree = "<group>"; };
+		AA70E15418A2F48E000771CD /* PNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNAppDelegate.m; sourceTree = "<group>"; };
+		AA70E15718A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Playnation_App_V_0_4.xcdatamodel; sourceTree = "<group>"; };
+		AA70E15918A2F48E000771CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA70E15F18A2F48F000771CD /* Playnation App V 0.4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playnation App V 0.4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA70E16018A2F48F000771CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA70E16918A2F48F000771CD /* Playnation App V 0.4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Playnation App V 0.4Tests-Info.plist"; sourceTree = "<group>"; };
+		AA70E16B18A2F48F000771CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA70E16D18A2F48F000771CD /* Playnation_App_V_0_4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playnation_App_V_0_4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA70E13C18A2F48E000771CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70E14518A2F48E000771CD /* CoreGraphics.framework in Frameworks */,
+				AA70E14918A2F48E000771CD /* CoreData.framework in Frameworks */,
+				AA70E14718A2F48E000771CD /* UIKit.framework in Frameworks */,
+				AA70E14318A2F48E000771CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA70E15C18A2F48F000771CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70E16118A2F48F000771CD /* XCTest.framework in Frameworks */,
+				AA70E16418A2F48F000771CD /* CoreData.framework in Frameworks */,
+				AA70E16318A2F48F000771CD /* UIKit.framework in Frameworks */,
+				AA70E16218A2F48F000771CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA70E13618A2F48E000771CD = {
+			isa = PBXGroup;
+			children = (
+				AA70E14A18A2F48E000771CD /* Playnation App V 0.4 */,
+				AA70E16718A2F48F000771CD /* Playnation App V 0.4Tests */,
+				AA70E14118A2F48E000771CD /* Frameworks */,
+				AA70E14018A2F48E000771CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA70E14018A2F48E000771CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA70E13F18A2F48E000771CD /* Playnation App V 0.4.app */,
+				AA70E15F18A2F48F000771CD /* Playnation App V 0.4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA70E14118A2F48E000771CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA70E14218A2F48E000771CD /* Foundation.framework */,
+				AA70E14418A2F48E000771CD /* CoreGraphics.framework */,
+				AA70E14618A2F48E000771CD /* UIKit.framework */,
+				AA70E14818A2F48E000771CD /* CoreData.framework */,
+				AA70E16018A2F48F000771CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA70E14A18A2F48E000771CD /* Playnation App V 0.4 */ = {
+			isa = PBXGroup;
+			children = (
+				AA70E15318A2F48E000771CD /* PNAppDelegate.h */,
+				AA70E15418A2F48E000771CD /* PNAppDelegate.m */,
+				AA70E15918A2F48E000771CD /* Images.xcassets */,
+				AA70E15618A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodeld */,
+				AA70E14B18A2F48E000771CD /* Supporting Files */,
+			);
+			path = "Playnation App V 0.4";
+			sourceTree = "<group>";
+		};
+		AA70E14B18A2F48E000771CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA70E14C18A2F48E000771CD /* Playnation App V 0.4-Info.plist */,
+				AA70E14D18A2F48E000771CD /* InfoPlist.strings */,
+				AA70E15018A2F48E000771CD /* main.m */,
+				AA70E15218A2F48E000771CD /* Playnation App V 0.4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA70E16718A2F48F000771CD /* Playnation App V 0.4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA70E16D18A2F48F000771CD /* Playnation_App_V_0_4Tests.m */,
+				AA70E16818A2F48F000771CD /* Supporting Files */,
+			);
+			path = "Playnation App V 0.4Tests";
+			sourceTree = "<group>";
+		};
+		AA70E16818A2F48F000771CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA70E16918A2F48F000771CD /* Playnation App V 0.4Tests-Info.plist */,
+				AA70E16A18A2F48F000771CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA70E13E18A2F48E000771CD /* Playnation App V 0.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA70E17118A2F48F000771CD /* Build configuration list for PBXNativeTarget "Playnation App V 0.4" */;
+			buildPhases = (
+				AA70E13B18A2F48E000771CD /* Sources */,
+				AA70E13C18A2F48E000771CD /* Frameworks */,
+				AA70E13D18A2F48E000771CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playnation App V 0.4";
+			productName = "Playnation App V 0.4";
+			productReference = AA70E13F18A2F48E000771CD /* Playnation App V 0.4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA70E15E18A2F48F000771CD /* Playnation App V 0.4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA70E17418A2F48F000771CD /* Build configuration list for PBXNativeTarget "Playnation App V 0.4Tests" */;
+			buildPhases = (
+				AA70E15B18A2F48F000771CD /* Sources */,
+				AA70E15C18A2F48F000771CD /* Frameworks */,
+				AA70E15D18A2F48F000771CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA70E16618A2F48F000771CD /* PBXTargetDependency */,
+			);
+			name = "Playnation App V 0.4Tests";
+			productName = "Playnation App V 0.4Tests";
+			productReference = AA70E15F18A2F48F000771CD /* Playnation App V 0.4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA70E13718A2F48E000771CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Playnation;
+				TargetAttributes = {
+					AA70E15E18A2F48F000771CD = {
+						TestTargetID = AA70E13E18A2F48E000771CD;
+					};
+				};
+			};
+			buildConfigurationList = AA70E13A18A2F48E000771CD /* Build configuration list for PBXProject "Playnation App V 0.4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA70E13618A2F48E000771CD;
+			productRefGroup = AA70E14018A2F48E000771CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA70E13E18A2F48E000771CD /* Playnation App V 0.4 */,
+				AA70E15E18A2F48F000771CD /* Playnation App V 0.4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA70E13D18A2F48E000771CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70E14F18A2F48E000771CD /* InfoPlist.strings in Resources */,
+				AA70E15A18A2F48E000771CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA70E15D18A2F48F000771CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70E16C18A2F48F000771CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA70E13B18A2F48E000771CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70E15818A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodeld in Sources */,
+				AA70E15518A2F48E000771CD /* PNAppDelegate.m in Sources */,
+				AA70E15118A2F48E000771CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA70E15B18A2F48F000771CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70E16E18A2F48F000771CD /* Playnation_App_V_0_4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA70E16618A2F48F000771CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA70E13E18A2F48E000771CD /* Playnation App V 0.4 */;
+			targetProxy = AA70E16518A2F48F000771CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA70E14D18A2F48E000771CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA70E14E18A2F48E000771CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA70E16A18A2F48F000771CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA70E16B18A2F48F000771CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA70E16F18A2F48F000771CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA70E17018A2F48F000771CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA70E17218A2F48F000771CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playnation App V 0.4/Playnation App V 0.4-Prefix.pch";
+				INFOPLIST_FILE = "Playnation App V 0.4/Playnation App V 0.4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA70E17318A2F48F000771CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playnation App V 0.4/Playnation App V 0.4-Prefix.pch";
+				INFOPLIST_FILE = "Playnation App V 0.4/Playnation App V 0.4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA70E17518A2F48F000771CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Playnation App V 0.4.app/Playnation App V 0.4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playnation App V 0.4/Playnation App V 0.4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Playnation App V 0.4Tests/Playnation App V 0.4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA70E17618A2F48F000771CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Playnation App V 0.4.app/Playnation App V 0.4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playnation App V 0.4/Playnation App V 0.4-Prefix.pch";
+				INFOPLIST_FILE = "Playnation App V 0.4Tests/Playnation App V 0.4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA70E13A18A2F48E000771CD /* Build configuration list for PBXProject "Playnation App V 0.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA70E16F18A2F48F000771CD /* Debug */,
+				AA70E17018A2F48F000771CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA70E17118A2F48F000771CD /* Build configuration list for PBXNativeTarget "Playnation App V 0.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA70E17218A2F48F000771CD /* Debug */,
+				AA70E17318A2F48F000771CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA70E17418A2F48F000771CD /* Build configuration list for PBXNativeTarget "Playnation App V 0.4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA70E17518A2F48F000771CD /* Debug */,
+				AA70E17618A2F48F000771CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA70E15618A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA70E15718A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodel */,
+			);
+			currentVersion = AA70E15718A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodel */;
+			path = Playnation_App_V_0_4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA70E13718A2F48E000771CD /* Project object */;
+}
