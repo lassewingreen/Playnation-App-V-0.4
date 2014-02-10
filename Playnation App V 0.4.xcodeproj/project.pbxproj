@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60D0197118A8BD6500D1D663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D0197018A8BD6500D1D663 /* Main.storyboard */; };
 		AA70E14318A2F48E000771CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14218A2F48E000771CD /* Foundation.framework */; };
 		AA70E14518A2F48E000771CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14418A2F48E000771CD /* CoreGraphics.framework */; };
 		AA70E14718A2F48E000771CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA70E14618A2F48E000771CD /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60D0197018A8BD6500D1D663 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		AA70E13F18A2F48E000771CD /* Playnation App V 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playnation App V 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA70E14218A2F48E000771CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA70E14418A2F48E000771CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 				AA70E15418A2F48E000771CD /* PNAppDelegate.m */,
 				AA70E15918A2F48E000771CD /* Images.xcassets */,
 				AA70E15618A2F48E000771CD /* Playnation_App_V_0_4.xcdatamodeld */,
+				60D0197018A8BD6500D1D663 /* Main.storyboard */,
 				AA70E14B18A2F48E000771CD /* Supporting Files */,
 			);
 			path = "Playnation App V 0.4";
@@ -212,6 +215,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				da,
 			);
 			mainGroup = AA70E13618A2F48E000771CD;
 			productRefGroup = AA70E14018A2F48E000771CD /* Products */;
@@ -229,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D0197118A8BD6500D1D663 /* Main.storyboard in Resources */,
 				AA70E14F18A2F48E000771CD /* InfoPlist.strings in Resources */,
 				AA70E15A18A2F48E000771CD /* Images.xcassets in Resources */,
 			);
@@ -325,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -357,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -448,6 +453,7 @@
 				AA70E17318A2F48F000771CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA70E17418A2F48F000771CD /* Build configuration list for PBXNativeTarget "Playnation App V 0.4Tests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +462,7 @@
 				AA70E17618A2F48F000771CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
